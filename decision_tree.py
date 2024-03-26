@@ -8,11 +8,11 @@ import numpy as np
 
 
 # Sample Data 
-X = np.array([[1], [2], [3], [4]])  
+x = np.array([[1], [2], [3], [4]])  
 y = np.array([0, 1, 0, 1]) 
 
 
-x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 
 # Model 
